@@ -1,0 +1,11 @@
+html{background-color: rgb(168, 136, 136);}
+body{background-color: whitesmoke; width: 1000px;margin: 20px auto; border-radius:20px ;}
+footer{background-color: crimson; color: black;font-size: 30px;border-radius: 0 0 20px 20px;padding: 20px;}
+
+main{ margin: 30px auto; width: 40%; text-align: center;}
+
+nav{background-color: crimson;padding: 20px;text-align: center;}
+nav a{color: black;font-size: 30px; margin:0 40px ;}
+header{text-align: center;}
+nav a:hover{color: blueviolet;}
+h1{color:rgb(168, 136, 136);}
