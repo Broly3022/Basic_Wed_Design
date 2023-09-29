@@ -1,0 +1,60 @@
+body{background-color: black ;}
+img{display: block;margin: 0 auto; width: 70%;}
+h1,h2,h3{color: black; text-align: center;}
+section{background-color: brown;width: 50%; margin: auto;}
+aside{background-color:brown ; width: 50%;margin: auto;}
+table{background-color: brown;}
+nav {background-color: orangered;padding: 2px 0; text-align: center;}
+nav ul{padding: 0;list-style-type: none ;}
+nav li{display: inline-block;}
+nav li a{display: block; background-color: dimgray ;width: 200px;height: 50px;line-height: 50px;
+font-size: 1.3em;font-weight: bold;color:whitesmoke ; text-decoration: none;border: 6px solid black ;
+border-radius: 20px;margin: 0 20px;}
+nav li a:hover {background-color:#F2DC6D  ;color: #D95A2B;border: 6px solid #A64C44}
+main{padding: 20px;}
+header h1{color: orangered;}
+footer{background-color: orangered;color: black;font-weight: bold;text-align: center;padding: 40px;font-size: 2em;}
+.button{display: block; background-color:#D92938;color:whitesmoke;  text-decoration: none
+    ;width: 200px;height: 20px;margin-top: 20px;padding: 10px;text-align: center; border: 4px solid black ;
+    border-radius: 10px;}
+    .button:hover{
+        background-color:#D95A2B;
+        border-color: #A64C44;
+    }
+    table{border: 4px solid orangered;}
+td,tr{border: 2px double black;
+padding: auto ;margin: auto; }
+aside ul li {font-size: 3em;}
+aside table img{width: 50%;}
+div {background-color: brown;}
+
+
+ @media (min-width:786px ) 
+ {nav li{display: inline-block;}
+  nav li a {width: 175px;
+margin: 0 5px;
+border-radius: 10px;
+border: 2px solid blanchedalmond;}
+main{display: flex;}
+section,aside{padding: 10px;
+margin: 10px;border: 2px solid black;border-radius: 10px;}
+
+
+.col img{width: 50%;}
+.button{margin-left: auto;
+margin-right: auto;}
+.single_page{width: 100%;}
+table img {width: 100%;}
+p{font-size: 1.5em ;}
+    }
+    @media(min-width:1024px){
+        body{padding: 10%;}
+        nav li a{background-color:dimgray
+            ;border: 0;}
+   #container{width: 65%;margin: 20px auto;}
+   #lower_area{display: flex;}
+   .col{border:2px solid black;padding: 10px; margin: 10px;border-radius: 10px;}
+   .single_page{width:100%}
+   table img {width: 100%;}
+   main section p{font-size: 1.5em;}
+    }
